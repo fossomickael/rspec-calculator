@@ -1,6 +1,9 @@
 class Calculator
+  def add(a, b)
+    a + b
+  end
 
-  def add(a,b)
-    a+b
+  def factorial(num)
+    (1..num).inject(:*) || 1
   end
 end
