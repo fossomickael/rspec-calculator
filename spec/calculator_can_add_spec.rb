@@ -20,8 +20,8 @@ describe Calculator do
     end
 
     it 'returns 120 when given 5' do
-        calculator = Calculator.new
-        expect(calculator.factorial(5)).to eq(120)
-      end
+      calculator = Calculator.new
+      expect(calculator.factorial(5)).to eq(120)
+    end
   end
 end
